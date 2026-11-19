@@ -1,0 +1,66 @@
+@import './fen-stayler.css';
+
+.slide {
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 40px;
+  border: 1px solid red;
+}
+
+.slide__content {
+  position: relative;
+  width: 100%;
+  max-width: var(--slide-width);
+  border-radius: var(--slide-radius);
+  overflow: hidden;
+  background-color: var(--gray-50);
+  aspect-ratio: 1240 / 800;
+}
+
+.slide__position {
+  position: relative;
+  z-index: 1;
+}
+
+.slide-head-text {
+  font-weight: 600;
+  line-height: 101%;
+  letter-spacing: -0.01em;
+}
+
+.slide__title {
+  margin-top: 52px;
+  font-size: var(--h1-size);
+  text-align: center;
+}
+
+.slide__badge {
+  margin-top: 32px;
+  padding: 10px 30px;
+  border-radius: var(--slide-badge-radius);
+  font-size: 53px;
+  background: var(--white-100);
+}
+
+.slide__item {
+  gap: 20px;
+}
+
+.slide__badge-label {
+  position: relative;
+  top: -10px;
+  width: max-content;
+  padding: 10px 28px;
+  border-radius: var(--slide-badge-label-radius);
+  font-size: var(--label-size);
+  line-height: 127%;
+  color: var(--white-100);
+  background: var(--gray-80);
+}
+
+.slide__image {
+  width: 243px;
+  height: 431px;
+  border-radius: var(--slide-badge-image-radius);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}

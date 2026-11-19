@@ -1,0 +1,20 @@
+:root {
+  /* breakpoints */
+  --mobile: 320px;
+  --tablet: 768px;
+  --desktop: 1024px;
+
+  /* slide size */
+  --slide-width: 1240px;
+  --slide-height: 800px;
+
+  /* slide options */
+  --slide-radius: 70px;
+  --slide-badge-radius: 70px;
+  --slide-badge-label-radius: 34px;
+  --slide-badge-image-radius: 33px;
+
+  /* fonts options */
+  --h1-size: 48px;
+  --label-size: 28px;
+}
