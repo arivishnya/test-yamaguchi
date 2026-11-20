@@ -39,8 +39,3 @@
 .fen-stayler__item-right {
   align-items: flex-end;
 }
-
-.fen-stayler__item-right > .slide__badge-label {
-  color: var(--gray-80);
-  background-color: var(--white-100);
-}
