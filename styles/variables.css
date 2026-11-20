@@ -16,12 +16,12 @@
   --slide-badge-image-radius: 33px;
 
   /* fonts options */
-  --h1-size: 48px;
-  --h2-size: 60px;
-  --h3-size: 45px;
-  --h4-size: 35px;
-  --label-size: 28px;
-  --label-size-m: 26px;
-  --label-size-s: 22px;
-  --label-size-xs: 15px;
+  --h1-size: 3.87cqw; /* 48px */
+  --h2-size: 4.84cqw; /* 60px */
+  --h3-size: 3.63cqw; /* 45px */
+  --h4-size: 2.82cqw; /* 35px */
+  --label-size: 2.26cqw; /* 28px */
+  --label-size-m: 2.1cqw; /* 26px */
+  --label-size-s: 1.77cqw; /* 22px */
+  --label-size-xs: 1.21cqw; /* 15px */
 }
