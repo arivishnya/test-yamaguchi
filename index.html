@@ -23,11 +23,17 @@
     <main class="main-container">
       <section
         id="slide-1"
-        class="slide flex-center"
+        class="slide flex-center is-active"
       >
         <div class="slide__content">
-          <span class="fen-stayler__ellipse fen-stayler__ellipse--white" aria-hidden="true"></span>
-          <span class="fen-stayler__ellipse fen-stayler__ellipse--beige" aria-hidden="true"></span>
+          <span
+            class="fen-stayler__ellipse fen-stayler__ellipse--white"
+            aria-hidden="true"
+          ></span>
+          <span
+            class="fen-stayler__ellipse fen-stayler__ellipse--beige"
+            aria-hidden="true"
+          ></span>
           <span
             class="fen-stayler__ellipse fen-stayler__ellipse--orange"
             aria-hidden="true"
@@ -46,7 +52,10 @@
 
           <div class="slide__products slide__position flex-justify-center">
             <div class="slide__item flex-column">
-              <span class="slide__badge-label slide-head-text shadow">Фен</span>
+              <span
+                class="slide__badge-label slide__badge-label--dark slide-head-text shadow"
+                >Фен</span
+              >
 
               <img
                 class="slide__image shadow"
@@ -61,7 +70,9 @@
               alt="Девушка с уложенными волосами"
             />
 
-            <div class="slide__item fen-stayler__item-right flex-column">
+            <div
+              class="slide__item slide__badge-label--light fen-stayler__item-right flex-column"
+            >
               <span class="slide__badge-label slide-head-text shadow"
                 >Стайлер</span
               >
@@ -83,13 +94,17 @@
         <div
           class="slide__content flex-align-items-center flex-justify-space-around"
         >
-          <span class="superlight__ellipse superlight__ellipse--beige" aria-hidden="true"></span>
+          <span
+            class="superlight__ellipse superlight__ellipse--beige"
+            aria-hidden="true"
+          ></span>
 
-          <div class="superlight__image--center">
+          <div class="slide__position superlight__image--center">
             <div class="superlight__badge-container">
               <svg
                 viewBox="0 0 180 179"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <path
                   d="M89.507 0L106.011 12.3546L126.113 7.78091L136.165 25.7802L156.39 29.7782L158.252 50.31L175.102 62.1885L168.452 81.7025L179.014 99.4076L165.002 114.53L167.449 135L148.498 143.116L142.408 162.812L121.794 162.517L108.219 178.033L89.507 169.38L70.7949 178.033L57.2202 162.517L36.6063 162.812L30.5161 143.116L11.5647 135L14.0121 114.53L-1.52588e-05 99.4076L10.5618 81.7025L3.91187 62.1885L20.7619 50.31L22.6239 29.7782L42.8486 25.7802L52.9007 7.78091L73.0029 12.3546L89.507 0Z"
@@ -108,7 +123,9 @@
             />
           </div>
 
-          <div class="slide__item superlight-item flex-column-center">
+          <div
+            class="slide__item slide__position superlight-item flex-column-center"
+          >
             <h2 class="slide-head-text superlight__title">
               СУПЕР-<br />ЛЁГКИЙ
             </h2>
@@ -144,13 +161,14 @@
             <img
               class="innovative-motor__image"
               src="./assets/images/innovative-motor.png"
-              alt="Изображение мотора"
+              alt="Разрез бесщеточного мотора BLDC"
             />
 
             <div class="innovative-motor__badge-container">
               <svg
                 viewBox="0 0 180 179"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <path
                   d="M89.507 0L106.011 12.3546L126.113 7.78091L136.165 25.7802L156.39 29.7782L158.252 50.31L175.102 62.1885L168.452 81.7025L179.014 99.4076L165.002 114.53L167.449 135L148.498 143.116L142.408 162.812L121.794 162.517L108.219 178.033L89.507 169.38L70.7949 178.033L57.2202 162.517L36.6063 162.812L30.5161 143.116L11.5647 135L14.0121 114.53L-1.52588e-05 99.4076L10.5618 81.7025L3.91187 62.1885L20.7619 50.31L22.6239 29.7782L42.8486 25.7802L52.9007 7.78091L73.0029 12.3546L89.507 0Z"
@@ -176,15 +194,64 @@
     </main>
 
     <nav
-      class="test-yamaguchi-navigation"
+      class="test-yamaguchi-slide-navigation"
       aria-label="Навигация по слайдам"
     >
-      <!-- Боковое колесо -->
+      <div
+        class="navigation__ring"
+        aria-hidden="true"
+      ></div>
+
+      <button
+        data-slide="0"
+        class="slide-navigation__item is-active"
+        aria-label="Фен-стайлер 2 в 1"
+        aria-current="true"
+      >
+        <img
+          src="./assets/icons/fen.svg"
+          alt="Изображение фена"
+          aria-hidden="true"
+        />
+
+        <span class="slide-navigation-item__label flex-align-items-center">ФЕН-СТАЙЛЕР 2 В 1</span>
+      </button>
+
+      <button
+        data-slide="1"
+        class="slide-navigation__item"
+        aria-label="Суперлёгкий"
+      >
+        <img
+          src="./assets/icons/superlight.svg"
+          alt="Изображение пера"
+          aria-hidden="true"
+        />
+
+        <span class="slide-navigation-item__label flex-align-items-center">СУПЕРЛЁГКИЙ</span>
+      </button>
+
+      <button
+        data-slide="2"
+        class="slide-navigation__item"
+        aria-label="Инновационный японский мотор"
+      >
+        <img
+          src="./assets/icons/innovative-motor.svg"
+          alt="Изображение колеса"
+          aria-hidden="true"
+        />
+
+        <span class="slide-navigation-item__label flex-align-items-center"
+          >ИННОВАЦИОННЫЙ ЯПОНСКИЙ МОТОР</span
+        >
+      </button>
     </nav>
 
     <script
       type="module"
-      src="./js/main.js"
+      src="./js/index.js"
+      defer
     ></script>
   </body>
 </html>

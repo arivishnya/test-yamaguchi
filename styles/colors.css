@@ -1,9 +1,12 @@
 :root {
   --black-5: rgba(65, 60, 57, 0.21);
+  --black-10: rgba(0, 0, 0, 0.26);
 
   --gray-80: #4b4b4b;
+  --gray-70: #625b56;
   --gray-65: #737373;
   --gray-60: #7f7875;
+  --gray-55: #adacac;
   --gray-50: #a29c9a;
 
   --orange-50: #ff976a;
