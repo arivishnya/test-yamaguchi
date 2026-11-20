@@ -17,16 +17,16 @@
 
 .superlight__badge-container {
   position: absolute;
-  top: 75px;
-  left: -100px;
-  width: 180px;
-  height: 180px;
+  top: 6.05cqw;
+  left: -8.06cqw;
+  width: 14.52cqw;
+  height: 14.52cqw;
 }
 
 .superlight__badge-label {
   position: absolute;
-  top: 75px;
-  left: -5px;
+  top: 6.05cqw;
+  left: 0;
   font-size: var(--label-size-s);
   line-height: 113%;
   text-align: center;
@@ -36,9 +36,9 @@
 
 .superlight__image--center {
   position: relative;
-  left: 50px;
-  width: 669px;
-  height: 904px;
+  left: 4.03cqw;
+  width: 53.95cqw;
+  height: 72.9cqw;
 }
 
 .superlight__title {
@@ -55,15 +55,15 @@
 }
 
 .slide__item.superlight-item {
-  gap: 10px;
+  gap: 0.81cqw;
 }
 
 .superlight-item {
   position: relative;
-  top: 50px;
-  left: -50px;
+  top: 4.03cqw;
+  left: -4.03cqw;
 }
 
 .superlight-item > .slide__info-text {
-  margin-top: 25px;
+  margin-top: 2.02cqw;
 }
