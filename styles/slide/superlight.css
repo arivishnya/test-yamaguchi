@@ -81,7 +81,6 @@
     display: flex;
     align-items: center;
     width: 100%;
-    margin: 0 16px;
     padding: 11px 14px;
     border-radius: 60px;
     font-size: clamp(23px, 4vw, 32px);
@@ -95,7 +94,9 @@
   }
 
   .superlight__comfort-icon {
-    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex: 0 0 auto;
     width: 76px;
     height: 76px;

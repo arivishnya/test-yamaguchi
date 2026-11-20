@@ -35,7 +35,7 @@
 
 .innovative-motor__badge-label {
   position: absolute;
-   top: 5.24cqw;
+  top: 5.24cqw;
   left: 0;
   font-size: var(--label-size-s);
   line-height: 113%;
@@ -69,4 +69,143 @@
   text-align: right;
   color: var(--gray-65);
   letter-spacing: -0.01em;
+}
+
+.innovative-motor__pill {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .innovative-motor__ellipse {
+    display: none;
+  }
+
+  .innovative-motor__pill {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 35px;
+    padding: 11px 14px;
+    border-radius: 60px;
+    font-size: clamp(23px, 4vw, 32px);
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: var(--gray-80);
+    background: var(--gray-8);
+    box-shadow: 15.6335px 13.165px 24.6844px -4.93688px rgba(65, 60, 57, 0.21);
+    gap: 12px;
+  }
+
+  .innovative-motor__pill-icon {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 76px;
+    height: 76px;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+    place-items: center;
+  }
+
+  .innovative-motor__pill-icon img {
+    width: 46px;
+    height: 42px;
+  }
+
+  .innovative-motor-item {
+    display: contents;
+  }
+
+  .innovative-motor__image--center {
+    position: relative;
+    order: 4;
+    width: 100%;
+    height: auto;
+    margin-bottom: 150px;
+  }
+
+  .innovative-motor__info-text {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 2;
+    max-width: 50%;
+    margin: 0;
+    font-size: clamp(22px, 4vw, 32px);
+    text-align: left;
+    color: var(--gray-80);
+  }
+
+  .innovative-motor__image {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+  }
+
+  .innovative-motor__badge-container {
+    right: auto;
+    bottom: -20%;
+    left: 50%;
+    z-index: 2;
+    width: 180px;
+    height: 180px;
+    transform: translateX(-50%);
+    aspect-ratio: 1;
+  }
+
+  .innovative-motor__badge-label {
+    top: 50%;
+    right: 0;
+    left: 0;
+    font-size: clamp(21px, 3.4vw, 32px);
+    line-height: 1.1;
+    transform: translateY(-50%);
+  }
+
+  .slide__item.innovative-motor-item {
+    position: static;
+    top: auto;
+    display: contents;
+    width: auto;
+  }
+
+  .innovative-motor__title {
+    order: 2;
+    width: 100%;
+    margin: 15px 0;
+    font-size: clamp(22px, 6vw, 30px);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-100);
+  }
+
+  .innovative-motor__title span {
+    display: block;
+  }
+
+  .innovative-motor__title-top {
+    font-size: clamp(33px, 8.8vw, 43px);
+    font-weight: 600;
+    line-height: 122%;
+    letter-spacing: -0.01em;
+  }
+
+  .innovative-motor__title-main {
+    font-size: clamp(44px, 11.47vw, 54px);
+    font-weight: 600;
+    line-height: 1.1;
+    line-height: 109%;
+    letter-spacing: 0.06em;
+  }
+
+  .innovative-motor__title-bottom {
+    font-size: clamp(23px, 6.13vw, 32px);
+    font-weight: 600;
+    line-height: 122%;
+    letter-spacing: -0.01em;
+  }
 }
