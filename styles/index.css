@@ -23,3 +23,14 @@ body {
 .shadow {
   box-shadow: 16px 13px 25px -5px var(--black-5);
 }
+
+@media (max-width: 1024px) {
+  body {
+    overflow: auto;
+  }
+
+  .main-container {
+    position: relative;
+    overflow: auto;
+  }
+}

@@ -3,6 +3,7 @@
   top: 50%;
   left: 0;
   z-index: 10;
+  display: block;
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -69,4 +70,10 @@
 
 .slide-navigation__item.is-active .slide-navigation-item__label {
   opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .test-yamaguchi-slide-navigation {
+    display: none;
+  }
 }

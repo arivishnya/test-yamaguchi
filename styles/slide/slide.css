@@ -98,3 +98,21 @@
   color: var(--white-100);
   letter-spacing: 0.02em;
 }
+
+@media (max-width: 1024px) {
+  .slide {
+    position: relative;
+    padding: 0;
+    transform: none !important;
+    transition: none;
+  }
+
+  .slide__content {
+    width: 100%;
+    border-radius: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  
+}
