@@ -39,3 +39,12 @@
 .fen-stayler__item-right {
   align-items: flex-end;
 }
+
+@media (max-width: 767px) {
+  .fen-stayler__image--center {
+    order: -1;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
