@@ -25,7 +25,7 @@
         id="slide-1"
         class="slide flex-center is-active"
       >
-        <div class="slide__content">
+        <div class="slide__content slide__content-gradient">
           <span
             class="fen-stayler__ellipse fen-stayler__ellipse--white"
             aria-hidden="true"
@@ -70,10 +70,9 @@
               alt="Девушка с уложенными волосами"
             />
 
-            <div
-              class="slide__item fen-stayler__item-right flex-column"
-            >
-              <span class="slide__badge-label slide__badge-label--light slide-head-text shadow"
+            <div class="slide__item fen-stayler__item-right flex-column">
+              <span
+                class="slide__badge-label slide__badge-label--light slide-head-text shadow"
                 >Стайлер</span
               >
 
@@ -99,6 +98,25 @@
             aria-hidden="true"
           ></span>
 
+          <div class="superlight__comfort">
+            <span
+              class="superlight__comfort-icon"
+              aria-hidden="true"
+            >
+              <img
+                src="./assets/icons/superlight.svg"
+                alt="Изображение пера"
+                aria-hidden="true"
+              />
+            </span>
+
+            <span
+              >Лёгкость<br />
+              и комфорт<br />
+              в руке</span
+            >
+          </div>
+
           <div class="slide__position superlight__image--center">
             <div class="superlight__badge-container">
               <svg
@@ -117,8 +135,14 @@
             </div>
 
             <img
-              class="superlight__image"
+              class="superlight__image image-desktop"
               src="./assets/images/superlight.png"
+              alt="Девушка со стайлером и чашкой кофе"
+            />
+
+            <img
+              class="superlight__image image-mobile"
+              src="./assets/images/superlight-mobile.png"
               alt="Девушка со стайлером и чашкой кофе"
             />
           </div>
@@ -126,8 +150,12 @@
           <div
             class="slide__item slide__position superlight-item flex-column-center"
           >
-            <h2 class="slide-head-text superlight__title">
+            <h2 class="slide-head-text superlight__title title-desktop">
               СУПЕР-<br />ЛЁГКИЙ
+            </h2>
+
+            <h2 class="slide-head-text superlight__title title-mobile">
+              СУПЕРЛЁГКИЙ
             </h2>
 
             <p class="slide__info-text">
@@ -214,7 +242,9 @@
           aria-hidden="true"
         />
 
-        <span class="slide-navigation-item__label flex-align-items-center">ФЕН-СТАЙЛЕР 2 В 1</span>
+        <span class="slide-navigation-item__label flex-align-items-center"
+          >ФЕН-СТАЙЛЕР 2 В 1</span
+        >
       </button>
 
       <button
@@ -228,7 +258,9 @@
           aria-hidden="true"
         />
 
-        <span class="slide-navigation-item__label flex-align-items-center">СУПЕРЛЁГКИЙ</span>
+        <span class="slide-navigation-item__label flex-align-items-center"
+          >СУПЕРЛЁГКИЙ</span
+        >
       </button>
 
       <button

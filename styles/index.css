@@ -26,11 +26,13 @@ body {
 
 @media (max-width: 1024px) {
   body {
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   .main-container {
     position: relative;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 }
