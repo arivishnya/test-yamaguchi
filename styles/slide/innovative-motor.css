@@ -21,21 +21,21 @@
 
 .innovative-motor__image--center {
   position: relative;
-  width: 1240px;
-  height: 800px;
+  width: 100%;
+  height: 100%;
 }
 
 .innovative-motor__badge-container {
   position: absolute;
-  right: 45px;
-  bottom: 35px;
-  width: 180px;
-  height: 180px;
+  right: 3.63cqw;
+  bottom: 2.82cqw;
+  width: 14.52cqw;
+  height: 14.52cqw;
 }
 
 .innovative-motor__badge-label {
   position: absolute;
-  top: 65px;
+   top: 5.24cqw;
   left: 0;
   font-size: var(--label-size-s);
   line-height: 113%;
@@ -45,9 +45,9 @@
 
 .innovative-motor-item {
   position: absolute;
-  top: 0;
-  right: 15px;
-  margin: 55px 60px;
+  top: 4.44cqw;
+  right: 4.84cqw;
+  width: 44cqw;
 }
 
 .slide-head-text.innovative-motor__title {
@@ -62,8 +62,7 @@
 
 .innovative-motor__info-text {
   position: relative;
-  right: -20px;
-  margin-top: 11px;
+  margin-top: 0.89cqw;
   font-size: var(--h4-size);
   font-weight: 600;
   line-height: 112%;
