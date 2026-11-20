@@ -55,10 +55,13 @@ a {
 img {
   display: block;
   max-width: 100%;
+  -webkit-user-drag: none; /* Для Chrome, Safari, Edge, Opera */
+  user-select: none; /* Запрещает выделение картинки как текста */
+  pointer-events: none; /* Полностью отключает взаимодействие мышью (включая drag в Firefox) */
 }
 
 /* Указываем понятную периодичность в потоке данных у article*/
-article>*+* {
+article > * + * {
   margin-top: 1em;
 }
 

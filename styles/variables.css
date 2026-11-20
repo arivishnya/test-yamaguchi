@@ -11,10 +11,13 @@
   /* slide options */
   --slide-radius: 70px;
   --slide-badge-radius: 70px;
+  --slide-badge-radius-m: 60px;
   --slide-badge-label-radius: 34px;
   --slide-badge-image-radius: 33px;
 
   /* fonts options */
   --h1-size: 48px;
   --label-size: 28px;
+  --label-size-s: 22px;
+  --label-size-xs: 15px;
 }

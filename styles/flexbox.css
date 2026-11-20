@@ -19,3 +19,13 @@
   display: flex;
   justify-content: center;
 }
+
+.flex-align-items-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-justify-space-around {
+  display: flex;
+  justify-content: space-around;
+}

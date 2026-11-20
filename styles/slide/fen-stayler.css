@@ -41,6 +41,6 @@
 }
 
 .fen-stayler__item-right > .slide__badge-label {
-  background-color: var(--white-100);
   color: var(--gray-80);
+  background-color: var(--white-100);
 }
