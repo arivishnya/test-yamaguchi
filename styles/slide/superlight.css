@@ -43,7 +43,7 @@
 
 .superlight__title {
   text-align: center;
-  font-size: 60px;
+  font-size: var(--h2-size);
   color: var(--white-100);
 }
 

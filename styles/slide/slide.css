@@ -1,5 +1,6 @@
 @import './fen-stayler.css';
 @import './superlight.css';
+@import './innovative-motor.css';
 
 .slide {
   box-sizing: border-box;
@@ -16,6 +17,7 @@
   overflow: hidden;
   background-color: var(--gray-50);
   aspect-ratio: 1240 / 800;
+  container-type: inline-size;
 }
 
 .slide__position {
@@ -43,10 +45,6 @@
   background: var(--white-100);
 }
 
-.slide__item {
-  gap: 20px;
-}
-
 .slide__badge-label {
   position: relative;
   top: -10px;
@@ -59,6 +57,10 @@
   background: var(--gray-80);
 }
 
+.slide__item {
+  gap: 20px;
+}
+
 .slide__image {
   width: 243px;
   height: 431px;
@@ -67,10 +69,10 @@
 }
 
 .slide__info-text {
-  font-weight: 500;
   font-size: var(--label-size-xs);
+  font-weight: 500;
   line-height: 168%;
-  letter-spacing: 0.02em;
-  color: var(--white-100);
   text-align: center;
+  color: var(--white-100);
+  letter-spacing: 0.02em;
 }

@@ -1,0 +1,73 @@
+.innovative-motor__ellipse {
+  position: absolute;
+  left: 52.2%;
+  width: 54.2%;
+  border-radius: 50%;
+  opacity: 0.7;
+  background-color: var(--white-100);
+  aspect-ratio: 672 / 671;
+  filter: blur(
+    clamp(60px, 13.47cqw, 167px)
+  ); /* размытие тоже адаптируется вместе со слайдом */
+}
+
+.innovative-motor__ellipse--white-1 {
+  top: -13.75%;
+}
+
+.innovative-motor__ellipse--white-2 {
+  top: -19.75%;
+}
+
+.innovative-motor__image--center {
+  position: relative;
+  width: 1240px;
+  height: 800px;
+}
+
+.innovative-motor__badge-container {
+  position: absolute;
+  right: 45px;
+  bottom: 35px;
+  width: 180px;
+  height: 180px;
+}
+
+.innovative-motor__badge-label {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  font-size: var(--label-size-s);
+  line-height: 113%;
+  text-align: center;
+  color: var(--white-100);
+}
+
+.innovative-motor-item {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  margin: 55px 60px;
+}
+
+.slide-head-text.innovative-motor__title {
+  line-height: 122%;
+}
+
+.innovative-motor__title {
+  font-size: var(--h3-size);
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.innovative-motor__info-text {
+  position: relative;
+  right: -20px;
+  margin-top: 11px;
+  font-size: var(--h4-size);
+  font-weight: 600;
+  line-height: 112%;
+  text-align: right;
+  color: var(--gray-65);
+  letter-spacing: -0.01em;
+}
